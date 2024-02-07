@@ -3,6 +3,7 @@ import RukunlarIcon from "./../../assets/icons/header/RukunlarIcon";
 import SearchIcon from "./../../assets/icons/header/SearchIcon";
 import UzbIcon from "./../../assets/icons/header/UzbIcon";
 import UserIcon from "./../../assets/icons/header/UserIcon";
+import Button from "../../Components/Buttons/Button";
 
 const Header = () => {
   return (
@@ -39,10 +40,10 @@ const Header = () => {
               <option value="Eng">Eng</option>
             </select>
           </div>
-          <button className="rounded-lg bg-primary py-[12px] px-[24px] flex gap-2 text-white">
+          <Button variant="primary" className="flex gap-3">
             <UserIcon />
             Kirish
-          </button>
+          </Button>
         </div>
       </div>
     </div>
