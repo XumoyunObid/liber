@@ -10,7 +10,7 @@ const MostRead = () => {
         <img className="w-[275px]" src={girl} />
       </div>
       <ul className="flex gap-4">
-        {data.map((item) => (
+        {data.slice(0, 3).map((item) => (
           <li key={item.id}>
             <MostReadCard img={item.img} title={item.title} />
           </li>
