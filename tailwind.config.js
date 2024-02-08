@@ -7,6 +7,7 @@ export default {
       colors: {
         "primary": "#3F51B5",
         "primary-soft": "rgb(238, 244, 255)",
+        "dark-gray": "#10182C",
       },
     },
   },
